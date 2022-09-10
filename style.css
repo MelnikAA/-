@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    margin: 0;
+    
+
+}
+
+body * {
+    box-sizing: border-box;
+    cursor: url('/img/cursor.png'), pointer;
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(116, 184, 248);
+}
+
+.btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: 0.09s;
+
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: rgba(26, 14, 77, 0.35) 0 5px 15px;
+    font-family: 'Zen Dots'
+}
+
+img{
+    opacity: 0.0;
+    width: 1px;
+    
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+    cursor: url('./img/cursor-ussual.png'), pointer;
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(124, 115, 207);
+}
+
+.btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: 0.09s;
+
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
